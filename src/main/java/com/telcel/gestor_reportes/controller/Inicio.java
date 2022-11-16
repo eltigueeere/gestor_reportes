@@ -4,15 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+
 @Controller
-public class Login {
-    @GetMapping("/login")
-    public String get_login(Model model) {
-        return "login";
+public class Inicio {
+
+    @GetMapping(value="/index")
+    public String getindex(Model model) {
+        return "index";
     }
+    
+    
 }
-
-
-
-
-
