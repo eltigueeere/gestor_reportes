@@ -1,4 +1,4 @@
-package com.telcel.gestor_reportes.controller.Reports;
+package com.telcel.gestor_reportes.controller.reports;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
